@@ -60,16 +60,16 @@ footer{
 
 
 .accordion:hover .accordion-header{
-    color: blue;
+    color: rgb(42, 148, 224);
     font-weight: 700;
 }
 
-.fa-arrow-up{
+.fa-plus{
     opacity: 0;
     transition: all 0.3s ease;
 }
 
-.accordion:hover .fa-arrow-up {
+.accordion:hover .fa-plus {
     opacity: 1;
 }
 
@@ -85,14 +85,14 @@ footer{
     opacity: 1;
 }
 
-.accordion input[type="radio"]:checked + label  .fa-arrow-up {
-    opacity: 1;
-   transform: rotate(-180deg);
-    color: red;
+.accordion input[type="radio"]:checked + label  .fa-plus {
+    /*opacity: 1;*/
+   transform: rotate(-45deg);
+    color: rgb(42, 148, 224);
 }
 
 .accordion input[type="radio"]:checked + label  .accordion-header{
-    color:red;
+    color: rgb(42, 148, 224);
 }
 
 
@@ -128,9 +128,9 @@ footer{
     transition: all 1s ease;
 }
 
-.accordion-section:hover .fa-arrow-up{
-    transform: rotate(-180deg);
-    transition: all 0.3s ease-out;
+.accordion-section:hover .fa-plus{
+    transform: rotate(-45deg);
+    transition: all 0.1s ease-out;
 }
 
 .accordion-img{
