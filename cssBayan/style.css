@@ -115,6 +115,7 @@ footer{
 
 
 .accordion-panel{
+    display: block;
     height: 0;
     overflow: hidden;
     opacity: 0;
@@ -133,11 +134,9 @@ footer{
 }
 
 .accordion-img{
-    /*max-width: 25rem;*/
     width: 100%;
     object-fit: fill;
     padding: 1rem;
-    /*height: 70%;*/
 }
 
 
