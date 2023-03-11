@@ -175,7 +175,7 @@ footer {
 @media (max-width: 420px) {
 
     h1 {
-        font-size: 16px;
+        font-size: 20px;
     }
 
     .accordion input[type="radio"]:checked + label .accordion-panel {
