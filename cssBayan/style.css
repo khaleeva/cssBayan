@@ -178,6 +178,16 @@ body {
 
 }
 
+@media (max-width: 340px) {
+    .accordion-header{
+        padding: 0.7rem;
+    }
+    .accordion-header > span {
+        font-size: 0.7rem;
+    }
+
+}
+
 
 
 
