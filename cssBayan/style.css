@@ -101,7 +101,6 @@ body {
 
 }
 
-
 .accordion-panel {
     display: flex;
     align-items: center;
@@ -111,7 +110,6 @@ body {
     opacity: 0;
     transition: all 0.3s ease;
 }
-
 
 .accordion-img {
     width: 80%;
