@@ -3,7 +3,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    scroll-behavior: smooth;
 }
 
 body {
@@ -26,10 +25,9 @@ body {
 
 }
 
-footer {
+.footer {
     width: 100%;
     height: 10vh;
-
 }
 
 .header {
@@ -47,14 +45,11 @@ footer {
     flex-grow: 1;
     justify-content: center;
     align-items: center;
-
-
 }
 
 ._container {
     margin: 0 auto;
-    padding: 0 15px;
-    max-width: 1250px;
+    padding: 0 2rem;
 }
 
 .accordion {
@@ -99,9 +94,9 @@ footer {
     justify-content: space-between;
     align-items: center;
     height: 3rem;
-    padding: 15px;
+    padding: 2rem;
     font-weight: 700;
-    border-bottom: 1px solid #70a8e9;
+    border-bottom: 0.7rem solid #70a8e9;
     user-select: none;
 
 }
@@ -151,14 +146,9 @@ footer {
 }
 
 @media all and (min-width: 821px) {
-    .accordion {
+    .accordion, .accordion * {
         cursor: pointer;
     }
-
-    .accordion * {
-        cursor: inherit;
-    }
-
 
 }
 
@@ -167,7 +157,7 @@ footer {
         opacity: 1;
     }
     h1 {
-        font-size: 30px;
+        font-size: 2rem;
     }
 
 }
@@ -175,7 +165,7 @@ footer {
 @media (max-width: 420px) {
 
     h1 {
-        font-size: 16px;
+        font-size: 1rem;
     }
 
     .accordion input[type="radio"]:checked + label .accordion-panel {
