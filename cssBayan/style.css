@@ -101,6 +101,10 @@ body {
 
 }
 
+label:hover:active {
+    transition: 1s;
+    opacity: .5;
+}
 .accordion-panel {
     display: flex;
     align-items: center;
