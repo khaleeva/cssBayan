@@ -130,6 +130,10 @@ label:hover:active {
         opacity: 1;
     }
 
+    .accordion, .accordion * {
+        cursor: pointer;
+    }
+
     .accordion:hover .accordion-header {
         color: rgb(42, 148, 224);
         font-weight: 700;
@@ -147,12 +151,6 @@ label:hover:active {
     }
 }
 
-@media all and (min-width: 821px) {
-    .accordion, .accordion * {
-        cursor: pointer;
-    }
-
-}
 
 @media (max-width: 820px) {
     .fa-plus {
